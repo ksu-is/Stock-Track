@@ -2,7 +2,7 @@ import urllib.request
 from tkinter import *
 from tkinter import messagebox
 from stock import Stock
-import yfinance as yf
+import yfinance as yf #replacement for depreciated yahoo finance csv files
 
 class Application(Frame):
 	def __init__(self, root):
